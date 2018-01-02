@@ -1,0 +1,30 @@
+{
+  "generator-m-ionic": {
+    "answers": {
+      "appName": "Buzzers",
+      "appId": "com.digialchem.buzzers",
+      "ionicCss": false,
+      "bowerPackages": [
+        "angular-dynamic-locale#~0.1.32",
+        "angular-translate#~2.13.0",
+        "angular-translate-loader-static-files#~2.13.0"
+      ],
+      "platforms": [
+        "android",
+        "browser"
+      ],
+      "plugins": [
+        "cordova-plugin-device",
+        "cordova-plugin-dialogs",
+        "cordova-plugin-inappbrowser",
+        "ionic-plugin-keyboard",
+        "cordova-plugin-network-information",
+        "cordova-plugin-splashscreen",
+        "cordova-plugin-statusbar"
+      ],
+      "appModule": "Buzzers",
+      "ecosystems": [],
+      "install": "npm"
+    }
+  }
+}
