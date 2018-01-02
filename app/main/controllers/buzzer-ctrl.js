@@ -24,7 +24,7 @@ angular.module('main')
             $rootScope.playerBuzzed = true;
             $rootScope.buzzerClass = 'red';
 
-            $rootScope.buzzerNoise = new Audio('main/audio/red.mp3');
+            $rootScope.buzzerNoise = new Audio('main/assets/audio/red.mp3');
             $rootScope.buzzerNoise.play();
 
             break;
@@ -32,7 +32,7 @@ angular.module('main')
             $rootScope.playerBuzzed = true;
             $rootScope.buzzerClass = 'blue';
 
-            $rootScope.buzzerNoise = new Audio('main/audio/blue.mp3');
+            $rootScope.buzzerNoise = new Audio('main/assets/audio/blue.mp3');
             $rootScope.buzzerNoise.play();
 
             break;
@@ -40,7 +40,7 @@ angular.module('main')
             $rootScope.playerBuzzed = true;
             $rootScope.buzzerClass = 'yellow';
 
-            $rootScope.buzzerNoise = new Audio('main/audio/yellow.mp3');
+            $rootScope.buzzerNoise = new Audio('main/assets/audio/yellow.mp3');
             $rootScope.buzzerNoise.play();
 
             break;
