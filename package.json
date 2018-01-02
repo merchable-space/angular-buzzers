@@ -80,5 +80,8 @@
         "proxyMapTo": "https://echo.getpostman.com"
       }
     ]
+  },
+  "dependencies": {
+    "angular-keydown": "^0.1.1"
   }
 }

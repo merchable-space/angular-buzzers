@@ -2,19 +2,18 @@
 angular.module('main', [
   'ionic',
   'ngCordova',
-  'ui.router',
+  'ui.router'
   // TODO: load other modules selected during generation
 ])
 .config(function ($stateProvider, $urlRouterProvider) {
 
   // ROUTING with ui.router
-  $urlRouterProvider.otherwise('/main');
+  $urlRouterProvider.otherwise('/buzzer');
   $stateProvider
     // this state is placed in the <ion-nav-view> in the index.html
     .state('main', {
-      url: '/main',
-      template: '<ion-view view-title="main"></ion-view>',
-      // templateUrl: 'main/templates/<someTemplate>.html',
-      // controller: 'SomeCtrl as ctrl'
+      url: '/buzzer',
+      templateUrl: 'main/templates/buzzer.html',
+      controller: 'BuzzerCtrl as buzzCtrl'
     });
 });

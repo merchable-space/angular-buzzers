@@ -21,4 +21,32 @@ $ionicons-font-path: "../assets/fonts" !default;
 // Include all of Ionic
 @import "../../bower_components/ionic/scss/ionic";
 
+.buzz-bg {
+    height: 1000px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.blank {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+input.full {
+    float: left;
+    width: 100%;
+}
+
 
