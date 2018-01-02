@@ -14,7 +14,7 @@ angular.module('main')
     }
 
     // Space = 32
-    // Enter = 13
+    // X = 88
     // Z = 90
 
     var keyCode = keyPress.keyCode;
@@ -28,7 +28,7 @@ angular.module('main')
             $rootScope.buzzerNoise.play();
 
             break;
-        case 13:
+        case 90:
             $rootScope.playerBuzzed = true;
             $rootScope.buzzerClass = 'blue';
 
@@ -36,7 +36,7 @@ angular.module('main')
             $rootScope.buzzerNoise.play();
 
             break;
-        case 90:
+        case 88:
             $rootScope.playerBuzzed = true;
             $rootScope.buzzerClass = 'yellow';
 
